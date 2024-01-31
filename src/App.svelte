@@ -79,7 +79,7 @@
       Download Config
     </button>
     <hr>
-    Run the Palworld server at least once before copying config to the correct folder. After downloading the config, place it inside the &lbrace; Palworld server main folder &rbrace;/Pal/Saved/Config/LinuxServer folder. Windows folder TBA.
+    Run the Palworld server at least once before copying config to the correct folder. After downloading the config, place it inside the <span class="terminal">&lbrace;Palworld server main folder&rbrace;/Pal/Saved/Config/LinuxServer</span> folder. Windows folder TBA.
   </div>
 </main>
 
@@ -95,10 +95,19 @@
     width: 75vw;
   }
 
+  button {
+    height: 3rem;
+    width: 14rem;
+    font-size: 14pt;
+    font-weight: bold;
+  }
+
   #logo {
     font-size: 30pt;
     text-align: center;
     width: 100%;
+    font-weight: bold;
+    text-decoration: underline;
   }
 
   #content {
@@ -108,5 +117,11 @@
   #submit {
     text-align: center;
     padding: 3rem;
+  }
+
+  .terminal {
+    background-color: lightgrey;
+    font-family: monospace;
+    color: black;
   }
 </style>

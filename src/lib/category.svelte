@@ -19,4 +19,13 @@
     .ctitle, .cdescription {
         text-align: center;
     }
+
+    .ctitle {
+        font-size: 18pt;
+    }
+
+    .cdescription {
+        font-size: 14pt;
+        margin-top: -1rem;
+    }
 </style>
