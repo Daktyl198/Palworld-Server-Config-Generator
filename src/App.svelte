@@ -1,6 +1,6 @@
 <script>
   import Category from './lib/category.svelte';
-  import { categories } from './settingslist.mjs';
+  import { categories } from './data/settingslist.mjs';
   import { data } from './stores.js';
 
   function submit() {
